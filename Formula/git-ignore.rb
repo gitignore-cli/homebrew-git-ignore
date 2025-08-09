@@ -1,10 +1,10 @@
 # https://docs.brew.sh/Formula-Cookbook
 class GitIgnore < Formula
   desc "An interactive git command to generate .gitignore files (written in Rust)"
-  homepage "https://github.com/janniks/git-ignore"
-  url "https://github.com/janniks/git-ignore/releases/download/0.2.0/git-ignore-mac.tar.gz"
-  sha256 "d2c467296778e2b93849cf0502a1292091e372281901dc2da481be1f7b7b1abf"
-  version "0.2.0"
+  homepage "https://github.com/makp0/git-ignore"
+  url "https://github.com/makp0/git-ignore/releases/download/0.2.1/git-ignore-mac.tar.gz"
+  sha256 "24facb86de8ae993aae351e415a3cb4ec55b9573a0c1739cd8afc28bbadf7ee5"
+  version "0.2.1"
 
   def install
     bin.install "git-ignore"
